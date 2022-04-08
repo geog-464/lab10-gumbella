@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>lab9</title>
+        <title>lab10</title>
         
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/styles.css">
@@ -15,14 +15,23 @@
 		<!--you can also place internal styles here; you would place these within <style> tags-->
     </head>
 
-    <body>
-        <!--put your initial page content here-->
+    <body>        <!--put your initial page content here-->
 		<div id="div1">
+			<p> Q.2) In the styleAll function the icons are being changed to white circles with black outlines. The styles variable gives the parameters of what the icons will look like and where they are placed over the point that is in the geometry for all the points. It contains the colour of the outline, the colour of the inside, the opacity of the icons, its weight, and the style of the outline. </p>
+			<p> Q.4) The feature is a variable that contains information about the geometry of each point and layer is a variable that contains all the conditions about each point (station)</p>
+			<p> Q.5) layer.option.fill fills in each circle for each point with a colour if it is set to true and no colour if it's set to false. layer.getLatLng() returns the geographical position of the current marker.</p>
+			<p> Q.6)They got big and there is no more fill colour </p>
 		</div>
 		<div id="mapdiv">
 			
 		</div>
 		
+    	<select class="li-nav" name="mapdropdown" id="mapdropdown" onChange="loadMap(this.value);">
+			<option value="map0" selected="selected" disabled>Load a map</option>
+			<option value='mapa'>Map A</option>
+			<option value='mapb'>Map B</option>
+		</select>
+
         <!--you can also use this space for internal scripts; you would place these within <script> tags-->
 
         
