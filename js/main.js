@@ -161,7 +161,7 @@ function addPopups(feature, layer, mapid){
 		layer.bindPopup(feature.properties.City + ", " + feature.properties.State);
 	}
 	if(mapid== 'mapb'){
-		layer.bindPopup(feature.properties.city + ". Pop: " + feature.properties.pop_2018);
+		layer.bindPopup(feature.properties.city);
 	}
 };
 
